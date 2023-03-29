@@ -15,11 +15,21 @@
 
 	<h2 class="titre">Groupe 1C</h2>
 
-	<div>
-		<p>Connexion</p>
-		<ul>
-			<li><a>Test1</a></li>
-		</ul>
+
+	<div class="co">
+		<p class="connection">Connexion</p>
+
+		<div>
+			<label for="id">Identifiant :</label>
+			<input type="text" id="id" name="id">
+		</div>
+
+		<div>
+			<label for="pass">Mot de passe</label>
+			<input type="password" id="pass" name="password" minlength="5" required>
+		</div>
+
+		<input type="submit" value="Se connecter" id="envoie">
 	</div>
 
 <?php

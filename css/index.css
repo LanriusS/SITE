@@ -5,10 +5,12 @@
 	padding: 0px;
 	box-sizing: border-box;
 	text-align: center;
+    background-color: rgb(179, 179, 179);
 }
 
 .titre {
-	background-color: rgb(116, 163, 165);
+	background-color: rgb(92, 92, 92);
+    margin: auto;
 }
 
 div{
@@ -25,4 +27,25 @@ footer{
     width: 100%;
     font-size: 20px;
     height: 60px;
+}
+
+.co{
+    box-shadow: inset;
+    margin: 150px 1px 1px 1px;
+    font-size: larger;
+    width: auto;
+    border-style:outset;
+    border-color: rgb(46, 84, 189);
+    border-width: 6px;
+    padding: 15px;
+}
+
+.connection{
+    margin: 30px;
+}
+
+#envoie{
+    padding: 8px;
+    border-radius: 7px;
+    border-width: 4px;
 }
