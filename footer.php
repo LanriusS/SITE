@@ -1,3 +1,4 @@
+</div>
 </section>
         <footer>
             <div class="conteneur">    
