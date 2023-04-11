@@ -11,7 +11,7 @@
                 echo $date;
                 
                 ?>
-                    -   Tous droits reservés    -   Lucas Schiavetti    -   Théo Seminara    -   Mattys Lemoine   -   Younes Essoufi    -   ChatGPT    -   Quoicoubaka.
+                    -   Tous droits reservés    -   Lucas Schiavetti    -   Théo Seminara    -   Mattys Lemoine   -   Younes Essoufi.
             </div>
         </footer>
     </body>
