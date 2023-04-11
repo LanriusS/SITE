@@ -1,5 +1,6 @@
 <?php require_once("init.php");?>
 
+
 <link rel="stylesheet" type="text/css" href="css/index.css" />
 <h1 id="title">PROJET 4E</h1>
 
@@ -25,7 +26,7 @@
 <?php
 if(EstConnecte() || EstConnecteEtEstAdmin())
 {
-    header('Location: https://erp1c.000webhostapp.com/accueil.php');
+    header('Location: accueil.php');
     exit();
 
 }
@@ -43,7 +44,7 @@ if($_POST) {
                     $_SESSION['membre'][$indice] = $element;
                 }
             }
-                header('Location: https://erp1c.000webhostapp.com/accueil.php');
+                header('Location: accueil.php');
         } else {
             $contenu .= '<div class="erreur">Erreur de MDP</div>';
             echo $contenu;

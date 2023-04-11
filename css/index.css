@@ -300,3 +300,32 @@ table {
     vertical-align: top;
     margin-right: 20px; /* marge pour espacer les tableaux */
 }
+
+/*
+.table{
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+*/
+table td {
+    border: 1px solid #cccccc;
+}
+
+.more{
+    background-color: yellowgreen;
+}
+
+.fired{
+    background-color: #ff0000;
+}
+
+td {
+    height: 80px;
+    width: 160px;
+    text-align: center;
+    vertical-align: middle;
+  }
